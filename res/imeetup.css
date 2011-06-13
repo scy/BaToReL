@@ -65,6 +65,15 @@ table {
 
 
 
+@font-face {
+	font-family:'TitilliumMaps29L';
+	src:url('TitilliumMaps29L.eot?') format('eot'),url('TitilliumMaps29L.woff') format('woff'),url('TitilliumMaps29L.ttf') format('ttf'),url('TitilliumMaps29L.svg#webfontgRcwvskg') format('svg');
+}
+
+body {
+	font-family:'TitilliumMaps29L','Helvetica Neue',Helvetica,Arial,sans-serif;
+}
+
 #panel {
 	width: 576px;
 	margin: 20px auto;
