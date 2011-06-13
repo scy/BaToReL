@@ -9,7 +9,11 @@
 <body><div id="panel">
 <div id="content-area">
 	<div id="content-background-top" class="content-background"></div>
-	<div id="navbar"></div>
+	<div id="navbar"><table><tr>
+		<td width="45%"><a href="download.html">Download</a></td>
+		<td width="10%">|</td>
+		<td width="45%"><a href="tour.html">Tour</a></td>
+	</tr></table></div>
 	<div id="content" class="cf">
 	${next.body()}
 	</div>

@@ -97,9 +97,28 @@ body {
 	background: url('bar.png') no-repeat;
 }
 
+#navbar table {
+	width: 100%;
+}
+
+#navbar td {
+	text-align: center;
+	line-height: 36px;
+	font-size: 26px;
+}
+
+#navbar td a {
+	display: block;
+}
+
 #content {
 	background: #fff url('background.png') repeat-y center top;
 	padding: 30px 35px;
+}
+
+a, a:link, a:hover, a:active, a:visited {
+	color: #000;
+	text-decoration: none;
 }
 
 h2 {
