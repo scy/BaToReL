@@ -129,3 +129,47 @@ h2 {
 	float: left;
 	margin: 0 8px 8px 0;
 }
+
+.button {
+	display: inline-block;
+	width: 164px;
+	height: 42px;
+	background: url('button.png');
+}
+
+.button a {
+	display: block;
+	position: relative;
+	height: 36px;
+	font-size: 20px;
+	line-height: 36px;
+}
+
+.button div {
+	height: 36px;
+}
+
+.button .icon {
+	position: absolute;
+	left: 13px;
+	top: 8px;
+	width: 20px;
+	height: 20px;
+	background: url('icons.png') no-repeat;
+}
+
+.button .text {
+	position: absolute;
+	right: 0;
+	top: 0;
+	width: 116px;
+	text-align: center;
+}
+
+.button-download .icon {
+	background-position: 0px 0px;
+}
+
+.button-next .icon {
+	background-position: -20px 0px;
+}

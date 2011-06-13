@@ -21,4 +21,10 @@
 </div>
 </div></body>
 
+<%def name='button(text, href, cls="")'>
+<div class="button button-${cls}"><a href="${href}">
+	<div class="icon"></div>
+	<div class="text">${text}</div>
+</a></div>
+</%def>
 </html>
