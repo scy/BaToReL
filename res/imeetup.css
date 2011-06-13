@@ -125,6 +125,12 @@ h2 {
 	font-size: 150%;
 }
 
+.center-button {
+	margin: 35px auto 0;
+	text-align: center;
+	width: 164px;
+}
+
 .screenshot {
 	float: left;
 	margin: 0 8px 8px 0;
