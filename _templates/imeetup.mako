@@ -3,6 +3,7 @@
 
 <head>
 	<meta charset="utf-8" />
+	<meta name="viewport" content="width=580" />
 	<link rel="stylesheet" href="res/imeetup.css" />
 </head>
 
