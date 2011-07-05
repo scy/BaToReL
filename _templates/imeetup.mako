@@ -35,6 +35,11 @@
 	<div class="text">${text}</div>
 </a></div>
 </%def>
+<%def name='thumb(name, title, width, height)'>
+<div class="screenshot">
+	<a href="res/images/${name}.jpg" class="lightboxed"><img src="res/images/${name}.thumb.jpg" alt="${title}" width="${width}" height="${height}" /></a>
+</div>
+</%def>
 <%
 if self.lightbox:
 	self.jquery = True
