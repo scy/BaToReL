@@ -1,6 +1,9 @@
+<%
+	self.lightbox = True
+%>
 <%inherit file="_templates/imeetup.mako" />
 <div class="screenshot">
-	<img src="http://placehold.it/200x150" alt="Screenshot"/>
+	<a href="res/images/homepage.jpg" class="lightboxed"><img src="res/images/homepage.thumb.jpg" alt="Screenshot" width="200" height="455" /></a>
 </div>
 <h2>Willkommen zu iMeetUp,</h2>
 <p>dem einfachsten Weg, neue Leute kennenzulernen.</p>

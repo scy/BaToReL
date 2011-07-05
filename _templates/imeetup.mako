@@ -1,4 +1,9 @@
-<!DOCTYPE html>
+<%
+	if not hasattr(self, "lightbox"):
+		self.lightbox = False
+	if not hasattr(self, "jquery"):
+		self.jquery = False
+%><!DOCTYPE html>
 <html>
 
 <head>
@@ -6,6 +11,7 @@
 	<title>iMeetUp</title>
 	<meta name="viewport" content="width=580" />
 	<link rel="stylesheet" href="res/imeetup.css" />
+	<link rel="stylesheet" href="res/imageZoom/jquery.imageZoom.css" />
 </head>
 
 <body><div id="panel">
@@ -29,4 +35,17 @@
 	<div class="text">${text}</div>
 </a></div>
 </%def>
+<%
+if self.lightbox:
+	self.jquery = True
+%>
+% if self.jquery:
+<script src="res/jquery-1.6.1.min.js"></script>
+% endif
+% if self.lightbox:
+<script src="res/imageZoom/jquery.imageZoom.min.js"></script>
+<script>
+jQuery('a.lightboxed').imageZoom();
+</script>
+% endif
 </html>
