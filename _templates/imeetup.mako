@@ -1,7 +1,10 @@
 <%!
+	# Most pages have a lightbox; enable it by default.
 	lightbox = True
+	# jQuery will be enabled when a lightbox is requested, so disable it by default.
 	jquery   = False
 %><%
+	# If a lightbox is requested, make sure jQuery is enabled.
 	if self.attr.lightbox:
 		self.attr.jquery = True
 %><!DOCTYPE html>
