@@ -1,5 +1,5 @@
 <%inherit file="_templates/imeetup.mako" />
-${self.thumb("homepage", "homepage", 200, 455)}
+${self.thumb("homepage", "Screenshot iMeetUp", 200, 455)}
 <h2>Willkommen zu iMeetUp,</h2>
 <p>dem einfachsten Weg, neue Leute kennenzulernen.</p>
 <p>Wir bieten dir eine Umgebung um Leute zu finden, die die selben Interessen haben wie du.</p>
