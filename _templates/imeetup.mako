@@ -20,7 +20,8 @@
 % endif
 </head>
 
-<body><div id="panel">
+<body>
+<div id="panel">
 <div id="content-area">
 	<div id="content-background-top" class="content-background"></div>
 	<div id="navbar"><table><tr>
@@ -33,7 +34,17 @@
 	</div>
 	<div id="content-background-bottom" class="content-background"></div>
 </div>
-</div></body>
+</div>
+% if self.attr.jquery:
+<script src="res/jquery-1.6.1.min.js"></script>
+% endif
+% if self.attr.lightbox:
+<script src="res/imageZoom/jquery.imageZoom.min.js"></script>
+<script>
+jQuery('a.lightboxed').imageZoom();
+</script>
+% endif
+</body>
 
 <%def name='button(text, href, cls="")'>
 <div class="button button-${cls}"><a href="${href}">
@@ -46,13 +57,5 @@
 	<a href="res/images/${name}.jpg" class="lightboxed"><img src="res/images/${name}.thumb.jpg" alt="${title}" width="${width}" height="${height}" /></a>
 </div>
 </%def>
-% if self.attr.jquery:
-<script src="res/jquery-1.6.1.min.js"></script>
-% endif
-% if self.attr.lightbox:
-<script src="res/imageZoom/jquery.imageZoom.min.js"></script>
-<script>
-jQuery('a.lightboxed').imageZoom();
-</script>
-% endif
+
 </html>
