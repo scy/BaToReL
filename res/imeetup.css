@@ -72,6 +72,7 @@ table {
 
 body {
 	font-family:'TitilliumMaps29L','Helvetica Neue',Helvetica,Arial,sans-serif;
+	font-size: 18px;
 }
 
 #panel {
@@ -123,6 +124,16 @@ a, a:link, a:hover, a:active, a:visited {
 
 h2 {
 	font-size: 150%;
+	margin-bottom: 0.6em;
+}
+
+p {
+	margin: 0.4em 0;
+	line-height: 110%;
+}
+
+li {
+	margin: 0.3em 0;
 }
 
 .center-button {
@@ -133,7 +144,7 @@ h2 {
 
 .screenshot {
 	float: left;
-	margin: 0 8px 8px 0;
+	margin: 0 15px 15px 0;
 }
 
 .button {
