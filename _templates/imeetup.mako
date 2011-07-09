@@ -26,7 +26,7 @@
 <div id="panel">
 <div id="content-area">
 	<div id="content-background-top" class="content-background"></div>
-	<div id="heading">
+	<div id="heading" class="cf">
 		<a href="./"><img id="icon" src="res/images/icon.png" width="95" height="95" alt="Applikationsicon" /></a>
 	</div>
 	<div id="navbar"><table><tr>
