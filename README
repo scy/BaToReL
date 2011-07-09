@@ -1,0 +1,5 @@
+HOW TO BUILD:
+
+  1. “cd” to the top-level directory of this repository.
+  2. Run “blogofile build”. (Blogofile must be installed.)
+  3. Find the generated site under “_site/”.
