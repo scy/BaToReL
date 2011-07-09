@@ -179,14 +179,31 @@ body.mein-profil .screenshot, body.karte .screenshot {
 	margin: 0 0 15px 15px;
 }
 
-.button {
+table.download {
+	margin: 15px auto 50px;
+}
+
+table.download td {
+	text-align: center;
+}
+
+table.download td.logo {
+	text-align: center;
+	border-bottom: 2px solid #ccc;
+}
+
+table.download td.button {
+	padding: 10px 30px;
+}
+
+div.button {
 	display: inline-block;
 	width: 164px;
 	height: 42px;
 	background: url('button.png');
 }
 
-.button a {
+div.button a {
 	display: block;
 	position: relative;
 	height: 36px;
@@ -194,11 +211,11 @@ body.mein-profil .screenshot, body.karte .screenshot {
 	line-height: 36px;
 }
 
-.button div {
+div.button div {
 	height: 36px;
 }
 
-.button .icon {
+div.button .icon {
 	position: absolute;
 	left: 13px;
 	top: 8px;
@@ -207,7 +224,7 @@ body.mein-profil .screenshot, body.karte .screenshot {
 	background: url('icons.png') no-repeat;
 }
 
-.button .text {
+div.button .text {
 	position: absolute;
 	right: 0;
 	top: 0;
@@ -215,10 +232,10 @@ body.mein-profil .screenshot, body.karte .screenshot {
 	text-align: center;
 }
 
-.button-download .icon {
+div.button-download .icon {
 	background-position: 0px 0px;
 }
 
-.button-next .icon {
+div.button-next .icon {
 	background-position: -20px 0px;
 }
