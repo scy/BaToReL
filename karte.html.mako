@@ -1,3 +1,4 @@
+<%! bodycls = 'karte' %>
 <%inherit file="_templates/imeetup.mako" />
 ${self.thumb("karte", "Screenshot Karte", 193, 438)}
 <h2>Karte</h2>

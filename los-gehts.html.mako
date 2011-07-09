@@ -1,3 +1,4 @@
+<%! bodycls = 'los-gehts' %>
 <%inherit file="_templates/imeetup.mako" />
 ${self.thumb("homepage", "Screenshot iMeetUp", 200, 455)}
 <h2>Los geht’s!</h2>

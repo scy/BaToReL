@@ -3,6 +3,8 @@
 	lightbox = True
 	# jQuery will be enabled when a lightbox is requested, so disable it by default.
 	jquery   = False
+	# Additional body classes.
+	bodycls  = ""
 %><%
 	# If a lightbox is requested, make sure jQuery is enabled.
 	if self.attr.lightbox:
@@ -20,7 +22,7 @@
 % endif
 </head>
 
-<body>
+<body class="${self.attr.bodycls}">
 <div id="panel">
 <div id="content-area">
 	<div id="content-background-top" class="content-background"></div>
