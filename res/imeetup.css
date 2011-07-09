@@ -117,6 +117,7 @@ body {
 }
 
 #heading {
+	position: relative;
 	padding: 0 37px 10px;
 }
 
@@ -131,6 +132,13 @@ body {
 a, a:link, a:hover, a:active, a:visited {
 	color: #000;
 	text-decoration: none;
+}
+
+h1 {
+	font-size: 175%;
+	position: absolute;
+	bottom: 10px;
+	right: 140px;
 }
 
 h2 {
