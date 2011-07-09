@@ -112,8 +112,20 @@ body {
 	display: block;
 }
 
-#content {
+#heading, #content {
 	background: #fff url('background.png') repeat-y center top;
+}
+
+#heading {
+	padding: 0 37px 10px;
+	min-height: 95px;
+}
+
+#icon {
+	float: right;
+}
+
+#content {
 	padding: 30px 37px;
 }
 
