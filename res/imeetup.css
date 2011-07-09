@@ -158,6 +158,11 @@ li {
 	margin: 0 15px 15px 0;
 }
 
+body.mein-profil .screenshot, body.karte .screenshot {
+	float: right;
+	margin: 0 0 15px 15px;
+}
+
 .button {
 	display: inline-block;
 	width: 164px;
