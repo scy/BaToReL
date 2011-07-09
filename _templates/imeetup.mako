@@ -7,6 +7,8 @@
 	bodycls  = ""
 	# Page title.
 	title    = None
+	# Meta description.
+	descr    = None
 %><%
 	# If a lightbox is requested, make sure jQuery is enabled.
 	if self.attr.lightbox:
@@ -26,6 +28,9 @@
 	<link rel="stylesheet" href="res/imeetup.css" />
 % if self.attr.lightbox:
 	<link rel="stylesheet" href="res/imageZoom/jquery.imageZoom.css" />
+% endif
+% if self.attr.descr:
+	<meta name="description" content="${self.attr.descr}" />
 % endif
 </head>
 

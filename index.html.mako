@@ -1,5 +1,6 @@
 <%!
 	bodycls = 'index'
+	descr   = u'Der einfachste Weg, neue Leute mit ähnlichen Interessen in deiner Umgebung kennenzulernen.'
 %>
 <%inherit file="_templates/imeetup.mako" />
 ${self.thumb("homepage", "Screenshot iMeetUp", 200, 455)}
