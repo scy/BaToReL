@@ -1,7 +1,10 @@
-<%! bodycls = 'mein-profil' %>
+<%!
+	bodycls = 'mein-profil'
+	title   = 'Mein Profil'
+%>
 <%inherit file="_templates/imeetup.mako" />
 ${self.thumb("mein-profil", "Screenshot Mein Profil", 193, 438)}
-<h2>Mein Profil</h2>
+<h2>${self.attr.title}</h2>
 <p>Für jedes Profilfeld kannst du festlegen, wer es sehen darf:</p>
 <ul>
 	<li><em>public</em> – öffentlich</li>

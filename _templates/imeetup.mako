@@ -5,6 +5,8 @@
 	jquery   = False
 	# Additional body classes.
 	bodycls  = ""
+	# Page title.
+	title    = None
 %><%
 	# If a lightbox is requested, make sure jQuery is enabled.
 	if self.attr.lightbox:
@@ -14,7 +16,12 @@
 
 <head>
 	<meta charset="utf-8" />
-	<title>iMeetUp</title>
+	<title>
+		% if self.attr.title:
+			${self.attr.title} «
+		% endif
+		iMeetUp
+	</title>
 	<meta name="viewport" content="width=580" />
 	<link rel="stylesheet" href="res/imeetup.css" />
 % if self.attr.lightbox:
