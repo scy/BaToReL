@@ -50,7 +50,12 @@
 	<div id="content" class="cf">
 	${next.body()}
 	</div>
-	<div id="content-background-bottom" class="content-background"></div>
+	<div id="content-background-bottom" class="content-background">
+		<a href="agb.html">AGBs</a>
+		<a href="mailto:support@imeetup.de">support@imeetup.de</a>
+		<a href="http://twitter.com/iMeetUp">Twitter</a>
+		<a href="impressum.html">Impressum</a>
+	</div>
 </div>
 </div>
 % if self.attr.jquery:

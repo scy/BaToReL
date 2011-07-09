@@ -82,6 +82,10 @@ body {
 
 .content-background {
 	height: 24px;
+	font-size: 18px;
+	line-height: 24px;
+	text-align: center;
+	color: #757575;
 	background: #fff url('border.png') no-repeat;
 }
 
@@ -91,6 +95,10 @@ body {
 
 #content-background-bottom {
 	background-position: center bottom;
+}
+
+.content-background a {
+	margin: 0 10px;
 }
 
 #navbar {
@@ -131,6 +139,11 @@ body {
 
 a, a:link, a:hover, a:active, a:visited {
 	color: #000;
+	text-decoration: none;
+}
+
+.content-background a, .content-background a:link, .content-background a:hover, .content-background a:active, .content-background a:visited {
+	color: #757575;
 	text-decoration: none;
 }
 
