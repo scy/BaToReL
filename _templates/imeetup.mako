@@ -24,7 +24,7 @@
 		% endif
 		iMeetUp
 	</title>
-	<meta name="viewport" content="width=580" />
+	<meta name="viewport" content="width=device-width" />
 	<link rel="stylesheet" href="res/imeetup.css" />
 % if self.attr.lightbox:
 	<link rel="stylesheet" href="res/imageZoom/jquery.imageZoom.css" />
