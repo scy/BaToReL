@@ -3,7 +3,7 @@
 	title   = 'Mein Profil'
 %>
 <%inherit file="_templates/imeetup.mako" />
-${self.thumb("mein-profil", "Screenshot Mein Profil", 193, 438)}
+${self.thumb("mein-profil", "Screenshot Mein Profil", 193, 439)}
 <h2>${self.attr.title}</h2>
 <p>Für jedes Profilfeld kannst du festlegen, wer es sehen darf:</p>
 <ul>
