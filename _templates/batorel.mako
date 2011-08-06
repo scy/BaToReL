@@ -22,7 +22,7 @@
 		% if self.attr.title:
 			${self.attr.title} «
 		% endif
-		iMeetUp
+		BaToReL
 	</title>
 	<meta name="viewport" content="width=device-width" />
 	<link rel="stylesheet" href="res/imeetup.css" />
@@ -37,10 +37,8 @@
 <body class="${self.attr.bodycls}">
 <div id="panel">
 <div id="content-area">
-	<div id="content-background-top" class="content-background"></div>
-	<div id="heading" class="cf">
-		<a href="./"><img id="icon" src="res/images/icon.png" width="95" height="95" alt="Applikationsicon" /></a>
-		<a href="./"><h1>iMeetUp</h1></a>
+	<div id="heading">
+		<a href="./"><span>BaToReL – Back To Real Life</span></a>
 	</div>
 	<div id="navbar"><table><tr>
 		<td width="45%"><a href="download.html">Download</a></td>
@@ -52,8 +50,8 @@
 	</div>
 	<div id="content-background-bottom" class="content-background">
 		<a href="agb.html">AGBs</a>
-		<a href="mailto:support@imeetup.de">support@imeetup.de</a>
-		<a href="http://twitter.com/iMeetUp">Twitter</a>
+		<a href="mailto:support@batorel.de">support@batorel.de</a>
+		<a href="http://twitter.com/BaToReL">Twitter</a>
 		<a href="impressum.html">Impressum</a>
 	</div>
 </div>

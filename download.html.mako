@@ -2,7 +2,7 @@
 	bodycls = "download"
 	title   = "Download"
 %>
-<%inherit file="_templates/imeetup.mako" />
+<%inherit file="_templates/batorel.mako" />
 <table class="download">
 	<tr>
 		<td class="logo"><img src="res/images/dl_apple.png" width="175" height="100" alt="Apple-Logo" /></td>

@@ -89,16 +89,32 @@ body {
 	background: #fff url('border.png') no-repeat;
 }
 
-#content-background-top {
-	background-position: center top;
-}
-
 #content-background-bottom {
 	background-position: center bottom;
 }
 
-.content-background a {
+#content-background-bottom a {
 	margin: 0 10px;
+}
+
+#heading {
+	background: url('images/banner.jpg') center bottom no-repeat;
+	width: 576px;
+	height: 160px;
+	padding: 0;
+	margin: 0;
+}
+
+#heading a {
+	padding: 0;
+	margin: 0 auto;
+	display: block;
+	width: 550px;
+	height: 160px;
+}
+
+#heading a span {
+	visibility: hidden;
 }
 
 #navbar {
@@ -120,17 +136,8 @@ body {
 	display: block;
 }
 
-#heading, #content {
+#content {
 	background: #fff url('background.png') repeat-y center top;
-}
-
-#heading {
-	position: relative;
-	padding: 0 37px 10px;
-}
-
-#icon {
-	float: right;
 }
 
 #content {
