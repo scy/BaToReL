@@ -258,3 +258,38 @@ div.button-download .icon {
 div.button-next .icon {
 	background-position: -20px 0px;
 }
+
+body.event h2 {
+	text-align: center;
+	font-size: 125%;
+}
+
+.event-owner {
+	float: right;
+	margin: 0 0 1em 1.5em;
+}
+
+.avatar-container {
+	border: 1px solid #999;
+	line-height: 1px;
+}
+
+.nickname-container {
+	text-align: center;
+	margin: 0.3em;
+}
+
+.event-basics {
+	margin: 1em 0;
+}
+
+.event-basics dt {
+	float: left;
+	display: block;
+	width: 5.5em;
+}
+
+.event-basics dd {
+	margin-left: 6em;
+	margin-bottom: 0.3em;
+}
