@@ -5,6 +5,8 @@
 	jquery   = False
 	# Additional body classes.
 	bodycls  = ""
+	# Language.
+	lang     = "en"
 	# Page title.
 	title    = None
 	# Meta description.
@@ -38,21 +40,21 @@
 <div id="panel">
 <div id="content-area">
 	<div id="heading">
-		<a href="./"><span>BaToReL – Back To Real Life</span></a>
+		<a href="index.${self.attr.lang}.html"><span>BaToReL – Back To Real Life</span></a>
 	</div>
 	<div id="navbar"><table><tr>
-		<td width="45%"><a href="download.de.html">Download</a></td>
+		<td width="45%"><a href="download.${self.attr.lang}.html">Download</a></td>
 		<td width="10%">|</td>
-		<td width="45%"><a href="my-profile.de.html">Tour</a></td>
+		<td width="45%"><a href="my-profile.${self.attr.lang}.html">Tour</a></td>
 	</tr></table></div>
 	<div id="content" class="cf">
 	${next.body()}
 	</div>
 	<div id="content-background-bottom" class="content-background">
-		<a href="tos.de.html">AGBs</a>
+		<a href="tos.${self.attr.lang}.html">AGBs</a>
 		<a href="mailto:support@batorel.de">support@batorel.de</a>
 		<a href="http://twitter.com/BaToReL">Twitter</a>
-		<a href="contact.de.html">Impressum</a>
+		<a href="contact.${self.attr.lang}.html">Impressum</a>
 	</div>
 </div>
 </div>

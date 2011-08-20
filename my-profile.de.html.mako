@@ -1,4 +1,5 @@
 <%!
+	lang    = 'de'
 	bodycls = 'my-profile'
 	title   = 'Mein Profil'
 %>
@@ -13,4 +14,4 @@ ${self.thumb("my-profile", "Screenshot Mein Profil", 193, 439)}
 	<li><em>private</em> – niemand</li>
 </ul>
 <p>Notwendig ist nur dein Nickname.</p>
-<div class="center-button">${self.button("weiter", "activities.de.html", "next")}</div>
+<div class="center-button">${self.button("weiter", "activities.%s.html" %(self.attr.lang), "next")}</div>
