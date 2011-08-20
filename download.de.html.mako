@@ -9,7 +9,7 @@
 		<td class="logo"><img src="res/images/dl_android.png" width="175" height="100" alt="Android-Logo" /></td>
 	</tr>
 	<tr>
-		<td class="button">${self.button("iPhone", "download.html", "download")}</td>
-		<td class="button">${self.button("Android", "download.html", "download")}</td>
+		<td class="button">${self.button("iPhone", "download.de.html", "download")}</td>
+		<td class="button">${self.button("Android", "download.de.html", "download")}</td>
 	</tr>
 </table>

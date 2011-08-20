@@ -41,18 +41,18 @@
 		<a href="./"><span>BaToReL – Back To Real Life</span></a>
 	</div>
 	<div id="navbar"><table><tr>
-		<td width="45%"><a href="download.html">Download</a></td>
+		<td width="45%"><a href="download.de.html">Download</a></td>
 		<td width="10%">|</td>
-		<td width="45%"><a href="mein-profil.html">Tour</a></td>
+		<td width="45%"><a href="my-profile.de.html">Tour</a></td>
 	</tr></table></div>
 	<div id="content" class="cf">
 	${next.body()}
 	</div>
 	<div id="content-background-bottom" class="content-background">
-		<a href="agb.html">AGBs</a>
+		<a href="tos.de.html">AGBs</a>
 		<a href="mailto:support@batorel.de">support@batorel.de</a>
 		<a href="http://twitter.com/BaToReL">Twitter</a>
-		<a href="impressum.html">Impressum</a>
+		<a href="contact.de.html">Impressum</a>
 	</div>
 </div>
 </div>

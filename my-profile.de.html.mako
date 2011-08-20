@@ -1,9 +1,9 @@
 <%!
-	bodycls = 'mein-profil'
+	bodycls = 'my-profile'
 	title   = 'Mein Profil'
 %>
 <%inherit file="_templates/batorel.mako" />
-${self.thumb("mein-profil", "Screenshot Mein Profil", 193, 439)}
+${self.thumb("my-profile", "Screenshot Mein Profil", 193, 439)}
 <h2>${self.attr.title}</h2>
 <p>Für jedes Profilfeld kannst du festlegen, wer es sehen darf:</p>
 <ul>
@@ -13,4 +13,4 @@ ${self.thumb("mein-profil", "Screenshot Mein Profil", 193, 439)}
 	<li><em>private</em> – niemand</li>
 </ul>
 <p>Notwendig ist nur dein Nickname.</p>
-<div class="center-button">${self.button("weiter", "aktivitaeten.html", "next")}</div>
+<div class="center-button">${self.button("weiter", "activities.de.html", "next")}</div>
