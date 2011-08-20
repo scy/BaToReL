@@ -1,7 +1,8 @@
 <%!
-	lang    = 'de'
-	bodycls = "download"
-	title   = "Download"
+	lang     = 'de'
+	bodycls  = "download"
+	title    = "Download"
+	lightbox = False
 %>
 <%inherit file="_templates/batorel.mako" />
 <table class="download">
