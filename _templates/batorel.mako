@@ -40,7 +40,10 @@
 <div id="panel">
 <div id="content-area">
 	<div id="heading">
-		<a href="index.${self.attr.lang}.html"><span>BaToReL – Back To Real Life</span></a>
+		<a href="index.${self.attr.lang}.html" class="header-home"><span>BaToReL – Back To Real Life</span></a>
+		<div id="langswitch">
+			<a href="#">English</a> | <a href="#">Deutsch</a>
+		</div>
 	</div>
 	<div id="navbar"><table><tr>
 		<td width="45%"><a href="download.${self.attr.lang}.html">Download</a></td>
