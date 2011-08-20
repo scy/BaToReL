@@ -1,4 +1,6 @@
 <%!
+	# The language switcher needs regular expressions.
+	import re
 	# Most pages have a lightbox; enable it by default.
 	lightbox = True
 	# jQuery will be enabled when a lightbox is requested, so disable it by default.
@@ -15,6 +17,8 @@
 	# If a lightbox is requested, make sure jQuery is enabled.
 	if self.attr.lightbox:
 		self.attr.jquery = True
+	# Generate the base file name by taking the template name.
+	self.attr.basename = re.sub(r'^.*/([^/]*)\...\.html\.mako$', r'\1', bf.template_context.template_name)
 %><!DOCTYPE html>
 <html lang="${self.attr.lang}">
 
@@ -42,7 +46,7 @@
 	<div id="heading">
 		<a href="index.${self.attr.lang}.html" class="header-home"><span>BaToReL – Back To Real Life</span></a>
 		<div id="langswitch">
-			<a href="#">English</a> | <a href="#">Deutsch</a>
+			<a href="${self.attr.basename}.en.html">English</a> | <a href="${self.attr.basename}.de.html">Deutsch</a>
 		</div>
 	</div>
 	<div id="navbar"><table><tr>
