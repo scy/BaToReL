@@ -16,7 +16,7 @@
 	if self.attr.lightbox:
 		self.attr.jquery = True
 %><!DOCTYPE html>
-<html>
+<html lang="${self.attr.lang}">
 
 <head>
 	<meta charset="utf-8" />
