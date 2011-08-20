@@ -3,7 +3,7 @@
 	descr   = u'Der einfachste Weg, neue Leute mit ähnlichen Interessen in deiner Umgebung kennenzulernen.'
 %>
 <%inherit file="_templates/batorel.mako" />
-${self.thumb("homepage", "Screenshot BaToReL", 200, 455)}
+${self.thumb("homepage", "Screenshot BaToReL", 193, 439)}
 <h2>Willkommen zu BaToReL,</h2>
 <p>dem einfachsten Weg, neue Leute kennenzulernen.</p>
 <p>Wir bieten dir eine Umgebung um Leute zu finden, die die selben Interessen haben wie du.</p>
